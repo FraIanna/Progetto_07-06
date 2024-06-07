@@ -10,15 +10,15 @@
     {
       "email": "nutul@mailinator.com",
       "password": "$2a$10$.sj3DBw0qLNlxFJ4UX9.0euOitJu/zWxQCIVLXo2Xm7YQSdBJzw1e",
-      "nome": "Elit in ut est accu",
-      "cognome": "Et maiores itaque qu",
+      "nome": "Pippo",
+      "cognome": "Baudo",
       "id": 2
     },
     {
       "email": "raquxus@mailinator.com",
       "password": "$2a$10$mkM7OfEMBrSERjKoDZX6/ep1svxBRDUM4Eb6PtkwN5/YRTCj//K7W",
-      "nome": "Hic impedit maiores",
-      "cognome": "Fugiat dolorum amet",
+      "nome": "Luke",
+      "cognome": "Skywalker",
       "id": 3
     },
     {
@@ -321,21 +321,21 @@
   ],
   "favorites": [
     {
-      "title": "The Fast and the Furious",
-      "year": 2001,
-      "genre": "Action",
-      "time": "1h 46m",
-      "image": "https://musicart.xboxlive.com/7/d2fb1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
-      "id": 18,
-      "userId": 1
-    },
-    {
       "title": "Il Signore degli Anelli - La Compagnia dell'Anello",
       "year": 2001,
       "genre": "Fantasy",
       "time": "2h 58m",
       "image": "https://pad.mymovies.it/filmclub/2002/01/011/locandina.jpg",
       "id": 9,
+      "userId": 4
+    },
+    {
+      "title": "The Fast and the Furious: Tokyo Drift",
+      "year": 2006,
+      "genre": "Action",
+      "time": "1h 44m",
+      "image": "https://musicart.xboxlive.com/7/fcd80f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 20,
       "userId": 4
     },
     {

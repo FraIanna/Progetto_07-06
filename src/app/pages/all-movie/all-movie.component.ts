@@ -29,6 +29,7 @@ export class AllMovieComponent {
       if (user) this.user = user;
     });
   }
+
   addToFavorite(id: number) {
     this.movieSvc.getById(id).subscribe((movie) => {
       if (this.user && movie) {

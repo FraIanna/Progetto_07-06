@@ -23,18 +23,22 @@ export class ProfileComponent {
   ) {}
 
   ngOnInit() {
+    this.authSvc.user$.subscribe((user) => {
+      if (user) {
+        this.user = user;
+        this.loadFavoriteMovies(user.id);
+      }
+    });
     this.movieSvc.getAll().subscribe((movies) => {
       this.movies = movies;
-
-      this.favoriteMovieSvc.getAll().subscribe((favoriteMovies) => {
-        this.favoriteMovies = favoriteMovies;
-      });
-    });
-    this.authSvc.user$.subscribe((user) => {
-      if (user) this.user = user;
     });
   }
 
+  loadFavoriteMovies(userId: number) {
+    this.favoriteMovieSvc.getFavoriteByUserId(userId).subscribe((favorites) => {
+      this.favoriteMovies = favorites;
+    });
+  }
   deleteMovie(id: number) {
     this.favoriteMovieSvc.delete(id).subscribe(() => {
       this.favoriteMovies = this.favoriteMovies.filter(
