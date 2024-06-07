@@ -1,0 +1,82 @@
+<div
+  class="container-fluid text-bg-dark p-5 text-center border-light border-bottom"
+>
+  <h1>Il tuo profilo</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-10 offset-1 p-5">
+      <div class="card h-100 shadow bg-custom text-light p-5">
+        <div class="card-body bg-transparent">
+          <h5 class="card-title text-bg-dark p-2 rounded text-center">
+            I tuoi dati
+          </h5>
+          <div class="card-text">
+            <div class="bg-dark shadow p-2">
+              <p class="fs-5">
+                <i class="bi bi-person-circle"></i>
+              </p>
+              <p class="fs-5">Nome: {{ user.nome }}</p>
+              <p class="fs-5">Cognome: {{ user.cognome }}</p>
+              <hr />
+              <p>Email: {{ user.email }}</p>
+            </div>
+
+            <div class="d-flex gap-3 flex-column pt-5">
+              <div>
+                <h4>I tuoi film preferit</h4>
+                <hr />
+                <div class="row">
+                  <div class="col-4 my-3" *ngFor="let movie of favoriteMovies">
+                    <div class="card h-100 shadow bg-transparent">
+                      <img
+                        [src]="movie.image"
+                        class="card-img-top"
+                        alt="movie-img"
+                      />
+                      <div class="card-body">
+                        <h5
+                          class="card-title text-bg-dark p-2 rounded text-center"
+                        >
+                          {{ movie.title }}
+                        </h5>
+                        <div class="card-text">
+                          <p class="fs-5">Anno: {{ movie.year }}</p>
+                          <hr />
+                          <div class="d-flex flex-column h-100 gap-2">
+                            <p>Durata: {{ movie.time }}</p>
+                            <button
+                              class="btn btn-outline-danger align-self-center"
+                              (click)="deleteMovie(movie.id)"
+                            >
+                              Elimina dai preferiti
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+              <div>
+                <h4>Socials</h4>
+                <div class="d-flex gap-3">
+                  <a href="" class="link-light"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="" class="link-light"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="" class="link-light"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div
+  class="container-fluid text-bg-dark p-2 text-center border-light border-bottom"
+>
+  <h1>Benvenuto, crea un nuovo account!</h1>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <form class="p-5 text-light rounded-3">
+        <h3>Inserisci i tuoi dati</h3>
+        <hr />
+        <div
+          class="col-6 offset-3 d-flex flex-column gap-3 shadow bg-dark p-3 rounded"
+        >
+          <h4>Il tuo nome:</h4>
+          <input
+            type="text"
+            placeholder="Mario"
+            [(ngModel)]="newUser.nome"
+            name="nome"
+          />
+          <h4>Il tuo cognome:</h4>
+          <input
+            type="text"
+            placeholder="Rossi"
+            [(ngModel)]="newUser.cognome"
+            name="cognome"
+          />
+          <h4>La tua email:</h4>
+          <input
+            type="email"
+            placeholder="Es. admin@admin.com"
+            [(ngModel)]="newUser.email"
+            name="email"
+          />
+          <h4>La tua password:</h4>
+          <input
+            type="password"
+            placeholder="Es. password"
+            [(ngModel)]="newUser.password"
+            name="password"
+          />
+          <button
+            class="btn btn-dark align-self-center fw-medium"
+            (click)="register()"
+          >
+            Registrati
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

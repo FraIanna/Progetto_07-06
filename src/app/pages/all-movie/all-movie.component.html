@@ -1,0 +1,37 @@
+<div
+  class="container-fluid text-bg-dark p-5 text-center border-light border-bottom"
+>
+  <h1>
+    Bentornato <span>{{ user.nome }}</span>
+  </h1>
+</div>
+<div class="container text-light p-5 mt-5 shadow">
+  <div class="row">
+    <div class="col-12 bg-dark rounded p-2 mb-3 shadow">
+      <h2>I nostri film</h2>
+    </div>
+    <div class="col-3 my-3 border-bottom pb-4" *ngFor="let movie of movies">
+      <div class="card h-100 shadow">
+        <img [src]="movie.image" class="card-img-top" alt="movie-img" />
+        <div class="card-body">
+          <h5 class="card-title text-bg-dark p-2 rounded text-center">
+            {{ movie.title }}
+          </h5>
+          <div class="card-text">
+            <p class="fs-5">Anno: {{ movie.year }}</p>
+            <hr />
+            <div class="d-flex flex-column h-100 gap-2">
+              <p>Durata: {{ movie.time }}</p>
+              <button
+                class="btn btn-outline-light align-self-center"
+                (click)="addToFavorite(movie.id)"
+              >
+                Aggiungi ai preferiti
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

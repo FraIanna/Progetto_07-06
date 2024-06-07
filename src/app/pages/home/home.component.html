@@ -1,0 +1,39 @@
+<div
+  class="container-fluid text-bg-dark p-5 text-center border-light border-bottom"
+>
+  <h1>Benvenuto</h1>
+  <p class="fs-5 fw-medium" *ngIf="!isLoggedIn">
+    Se non ti sei ancora registrato, fallo subito oppure accedi con il tuo
+    account
+  </p>
+  <div class="d-flex gap-3 justify-content-center" *ngIf="!isLoggedIn">
+    <button routerLink="/auth/login" class="btn btn-outline-light">
+      Accedi
+    </button>
+    <button routerLink="/auth/register" class="btn btn-outline-light">
+      Registrati
+    </button>
+  </div>
+</div>
+<div class="container text-light p-5 mt-5 shadow">
+  <div class="row">
+    <div class="col-12 bg-dark rounded p-2 mb-3 shadow">
+      <h2>Film di tendenza:</h2>
+    </div>
+    <div class="col-3 my-3 border-bottom pb-4" *ngFor="let movie of movies">
+      <div class="card h-100 shadow">
+        <img [src]="movie.image" class="card-img-top" alt="movie-img" />
+        <div class="card-body">
+          <h5 class="card-title text-bg-dark p-2 rounded text-center">
+            {{ movie.title }}
+          </h5>
+          <div class="card-text">
+            <p class="fs-5">Anno: {{ movie.year }}</p>
+            <hr />
+            <p>Durata: {{ movie.time }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

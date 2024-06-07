@@ -1,0 +1,39 @@
+<div
+  class="container-fluid text-bg-dark p-2 text-center border-light border-bottom"
+>
+  <h1>Benvenuto, accedi con il tuo account!</h1>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <form class="p-5 text-light rounded-3 shadow">
+        <h3>Inserisci i tuoi dati</h3>
+        <hr />
+        <div
+          class="col-6 offset-3 d-flex flex-column gap-3 shadow bg-dark p-3 rounded"
+        >
+          <h4>La tua email:</h4>
+          <input
+            type="email"
+            placeholder="Es. admin@admin.com"
+            [(ngModel)]="authData.email"
+            name="email"
+          />
+          <h4>La tua password:</h4>
+          <input
+            type="password"
+            placeholder="Es. password"
+            [(ngModel)]="authData.password"
+            name="password"
+          />
+          <button
+            class="btn btn-dark align-self-center fw-medium"
+            (click)="login()"
+          >
+            Accedi
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

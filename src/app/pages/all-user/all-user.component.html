@@ -1,0 +1,32 @@
+<div
+  class="container-fluid text-bg-dark p-5 text-center border-light border-bottom"
+>
+  <h1>Tutti gli utenti</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-4 text-bg-dark p-3" *ngFor="let user of users">
+      <div class="card h-100 shadow bg-custom text-light">
+        <div class="card-body">
+          <h5 class="card-title text-bg-dark p-2 rounded text-center">
+            Utente {{ user.id }}
+          </h5>
+          <div class="card-text">
+            <p class="fs-5 d-flex gap-2">
+              <i class="bi bi-person-circle"></i>{{ user.nome }}
+              {{ user.cognome }}
+            </p>
+            <hr />
+            <p>Email: {{ user.email }}</p>
+            <hr />
+            <div class="d-flex gap-3">
+              <a href="" class="link-light"><i class="bi bi-instagram"></i></a>
+              <a href="" class="link-light"><i class="bi bi-facebook"></i></a>
+              <a href="" class="link-light"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

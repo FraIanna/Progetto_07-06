@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-0">
+    <div class="navbar-brand w-25">
+      <img
+        class="img-fluid w-50"
+        src="https://t3.ftcdn.net/jpg/04/50/54/80/360_F_450548040_4oGP6VXOAVEdVxJncpujtOprwC1jVBsi.jpg"
+      />
+    </div>
+
+    <button class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse bg-dark rounded p-1 m-0"
+      id="navbarNav"
+    >
+      <ul class="navbar-nav fs-6 fw-medium gap-5 px-5">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link" routerLink="/auth/login">Accedi</a>
+        </li>
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link" routerLink="/auth/register">Registrati</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link" routerLink="/all-users">Tutti gli utenti </a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link" routerLink="/all-movies">Tutti i film </a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link" routerLink="/profile">Profilo</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-light">|</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <button class="nav-link" (click)="logout()">Esci</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

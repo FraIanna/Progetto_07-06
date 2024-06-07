@@ -1,0 +1,351 @@
+{
+  "users": [
+    {
+      "email": "zawaj@mailinator.com",
+      "password": "$2a$10$J/zlBIRbqaQ5UY8qm1ijEu8kz15AkrvVlDuQ/MvRER./TMjaBb8lu",
+      "nome": "Francesco",
+      "cognome": "Iannaccone",
+      "id": 1
+    },
+    {
+      "email": "nutul@mailinator.com",
+      "password": "$2a$10$.sj3DBw0qLNlxFJ4UX9.0euOitJu/zWxQCIVLXo2Xm7YQSdBJzw1e",
+      "nome": "Elit in ut est accu",
+      "cognome": "Et maiores itaque qu",
+      "id": 2
+    },
+    {
+      "email": "raquxus@mailinator.com",
+      "password": "$2a$10$mkM7OfEMBrSERjKoDZX6/ep1svxBRDUM4Eb6PtkwN5/YRTCj//K7W",
+      "nome": "Hic impedit maiores",
+      "cognome": "Fugiat dolorum amet",
+      "id": 3
+    },
+    {
+      "email": "kicydapako@mailinator.com",
+      "password": "$2a$10$pkGNey3yW8uMqCLJk8FqQeO0tdaTP8p4SIoF9TYyp7um8xnIXtliq",
+      "nome": "Prof",
+      "cognome": "Michele",
+      "id": 4
+    }
+  ],
+  "movies-popular": [
+    {
+      "title": "Harry Potter e la pietra filosofale",
+      "year": 2001,
+      "genre": "Fantasy",
+      "time": "2h 32m",
+      "image": "https://image.tmdb.org/t/p/original/cVbcBjqZWKxg3LNpDCOwkDaR2W1.jpg",
+      "id": 1
+    },
+    {
+      "title": "Harry Potter e la camera dei segreti",
+      "year": 2002,
+      "genre": "Fantasy",
+      "time": "2h 41m",
+      "image": "https://image.tmdb.org/t/p/original/o8nKMrvRr8MaK7Y7d68IprD9npf.jpg",
+      "id": 2
+    },
+    {
+      "title": "Harry Potter e il prigioniero di Azkaban",
+      "year": 2004,
+      "genre": "Fantasy",
+      "time": "2h 27m",
+      "image": "https://play-lh.googleusercontent.com/XWXgHOm1Dg4DwDF-3QhUBgDPA-b5A6xnvV4lXJWil_g39hmQp08mtEuDljGmemP2Kow2i0iq2rE_4A0E-Qo=w240-h480-rw",
+      "id": 3
+    },
+    {
+      "title": "Harry Potter e il calice di fuoco",
+      "year": 2005,
+      "genre": "Fantasy",
+      "time": "2h 37m",
+      "image": "https://musicart.xboxlive.com/7/cec85000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 4
+    },
+    {
+      "title": "Harry Potter e l'Ordine della Fenice",
+      "year": 2007,
+      "genre": "Fantasy",
+      "time": "2h 18m",
+      "image": "https://musicart.xboxlive.com/7/cfc85000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 5
+    },
+    {
+      "title": "Harry Potter e il principe mezzosangue",
+      "year": 2009,
+      "genre": "Fantasy",
+      "time": "2h 33m",
+      "image": "https://musicart.xboxlive.com/7/d0c85000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 6
+    },
+    {
+      "title": "Harry Potter e i doni della morte - Parte 1",
+      "year": 2010,
+      "genre": "Fantasy",
+      "time": "2h 26m",
+      "image": "https://musicart.xboxlive.com/7/d1c85000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 7
+    },
+    {
+      "title": "Harry Potter e il principe mezzosangue",
+      "year": 2011,
+      "genre": "Fantasy",
+      "time": "2h 10m",
+      "image": "https://musicart.xboxlive.com/7/d2c85000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 8
+    },
+    {
+      "title": "Il Signore degli Anelli - La Compagnia dell'Anello",
+      "year": 2001,
+      "genre": "Fantasy",
+      "time": "2h 58m",
+      "image": "https://pad.mymovies.it/filmclub/2002/01/011/locandina.jpg",
+      "id": 9
+    },
+    {
+      "title": "Il Signore degli Anelli - Le due torri",
+      "year": 2002,
+      "genre": "Fantasy",
+      "time": "2h 59m",
+      "image": "https://pad.mymovies.it/filmclub/2003/01/012/locandina.jpg",
+      "id": 10
+    },
+    {
+      "title": "Il Signore degli Anelli - Il ritorno del re",
+      "year": 2001,
+      "genre": "Fantasy",
+      "time": "3h 21m",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/25afbc4481b6288b233c4b82360bd85c43bcb2ec0d4516789a23d064146ca0d5.jpg",
+      "id": 11
+    },
+    {
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "genre": "Action",
+      "time": "1h 50m",
+      "image": "https://musicart.xboxlive.com/7/4c676600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 12
+    },
+    {
+      "title": "Mission: Impossible 2",
+      "year": 2000,
+      "genre": "Action",
+      "time": "2h 3m",
+      "image": "https://musicart.xboxlive.com/7/626a6600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 13
+    },
+    {
+      "title": "Mission: Impossible 3",
+      "year": 2006,
+      "genre": "Action",
+      "time": "2h 6m",
+      "image": "https://musicart.xboxlive.com/7/5d676600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 14
+    },
+    {
+      "title": "Mission: Impossible - Protocollo Fantasma",
+      "year": 2011,
+      "genre": "Action",
+      "time": "2h 13m",
+      "image": "https://musicart.xboxlive.com/7/67676600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 15
+    },
+    {
+      "title": "Mission: Impossible - Rogue Nation",
+      "year": 2015,
+      "genre": "Action",
+      "time": "2h 11m",
+      "image": "https://musicart.xboxlive.com/7/77676600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 16
+    },
+    {
+      "title": "Mission: Impossible - Fallout",
+      "year": 2018,
+      "genre": "Action",
+      "time": "2h 27m",
+      "image": "https://musicart.xboxlive.com/7/86676600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 17
+    },
+    {
+      "title": "The Fast and the Furious",
+      "year": 2001,
+      "genre": "Action",
+      "time": "1h 46m",
+      "image": "https://musicart.xboxlive.com/7/d2fb1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 18
+    },
+    {
+      "title": "2 Fast 2 Furious",
+      "year": 2003,
+      "genre": "Action",
+      "time": "1h 47m",
+      "image": "https://musicart.xboxlive.com/7/3e8a3f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 19
+    },
+    {
+      "title": "The Fast and the Furious: Tokyo Drift",
+      "year": 2006,
+      "genre": "Action",
+      "time": "1h 44m",
+      "image": "https://musicart.xboxlive.com/7/fcd80f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 20
+    },
+    {
+      "title": "Fast & Furious",
+      "year": 2009,
+      "genre": "Action",
+      "time": "1h 47m",
+      "image": "https://musicart.xboxlive.com/7/75903f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 21
+    },
+    {
+      "title": "Fast Five",
+      "year": 2011,
+      "genre": "Action",
+      "time": "2h 10m",
+      "image": "https://musicart.xboxlive.com/7/ee903f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 22
+    },
+    {
+      "title": "Fast & Furious 6",
+      "year": 2013,
+      "genre": "Action",
+      "time": "2h 10m",
+      "image": "https://musicart.xboxlive.com/7/b1cb1100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 23
+    },
+    {
+      "title": "Furious 7",
+      "year": 2015,
+      "genre": "Action",
+      "time": "2h 17m",
+      "image": "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGX067RTK/image?locale=it-it&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
+      "id": 24
+    },
+    {
+      "title": "Fast and the Furious 8",
+      "year": 2017,
+      "genre": "Action",
+      "time": "2h 16m",
+      "image": "https://musicart.xboxlive.com/7/09464400-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 25
+    },
+    {
+      "title": "Fast and the Furious 8",
+      "year": 2021,
+      "genre": "Action",
+      "time": "2h 23m",
+      "image": "https://musicart.xboxlive.com/7/68c35100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 26
+    },
+    {
+      "title": "Fast X",
+      "year": 2023,
+      "genre": "Action",
+      "time": "2h 21m",
+      "image": "https://musicart.xboxlive.com/7/14c16600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 27
+    },
+    {
+      "title": "Star Wars: Episodio IV - Una nuova speranza",
+      "year": 1977,
+      "genre": "Sci-Fi",
+      "time": "2h 1m",
+      "image": "https://musicart.xboxlive.com/7/55325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 28
+    },
+    {
+      "title": "Star Wars: Episodio V - L'Impero colpisce ancora",
+      "year": 1980,
+      "genre": "Sci-Fi",
+      "time": "2h 4m",
+      "image": "https://musicart.xboxlive.com/7/7d325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 29
+    },
+    {
+      "title": "Star Wars: Episodio VI - Il ritorno dello Jedi",
+      "year": 1983,
+      "genre": "Sci-Fi",
+      "time": "2h 11m",
+      "image": "https://musicart.xboxlive.com/7/75325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 30
+    },
+    {
+      "title": "Star Wars: Episodio I - La minaccia fantasma",
+      "year": 1999,
+      "genre": "Sci-Fi",
+      "time": "2h 16m",
+      "image": "https://musicart.xboxlive.com/7/6f325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 31
+    },
+    {
+      "title": "Star Wars: Episodio II - L'attacco dei cloni",
+      "year": 2002,
+      "genre": "Sci-Fi",
+      "time": "2h 22m",
+      "image": "https://musicart.xboxlive.com/7/62325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 32
+    },
+    {
+      "title": "Star Wars: Episodio III - La vendetta dei Sith",
+      "year": 2005,
+      "genre": "Sci-Fi",
+      "time": "2h 20m",
+      "image": "https://musicart.xboxlive.com/7/64325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 33
+    },
+    {
+      "title": "Star Wars: Episodio VII - Il risveglio della Forza",
+      "year": 2015,
+      "genre": "Sci-Fi",
+      "time": "2h 18m",
+      "image": "https://musicart.xboxlive.com/7/82325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 34
+    },
+    {
+      "title": "Star Wars: Episodio VIII - Gli ultimi Jedi",
+      "year": 2017,
+      "genre": "Sci-Fi",
+      "time": "2h 32m",
+      "image": "https://musicart.xboxlive.com/7/89325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 35
+    },
+    {
+      "title": "Star Wars: Episodio IX - L'ascesa di Skywalker",
+      "year": 2019,
+      "genre": "Sci-Fi",
+      "time": "2h 22m",
+      "image": "https://musicart.xboxlive.com/7/a7475100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 36
+    }
+  ],
+  "favorites": [
+    {
+      "title": "The Fast and the Furious",
+      "year": 2001,
+      "genre": "Action",
+      "time": "1h 46m",
+      "image": "https://musicart.xboxlive.com/7/d2fb1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 18,
+      "userId": 1
+    },
+    {
+      "title": "Il Signore degli Anelli - La Compagnia dell'Anello",
+      "year": 2001,
+      "genre": "Fantasy",
+      "time": "2h 58m",
+      "image": "https://pad.mymovies.it/filmclub/2002/01/011/locandina.jpg",
+      "id": 9,
+      "userId": 4
+    },
+    {
+      "title": "Star Wars: Episodio III - La vendetta dei Sith",
+      "year": 2005,
+      "genre": "Sci-Fi",
+      "time": "2h 20m",
+      "image": "https://musicart.xboxlive.com/7/64325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+      "id": 33,
+      "userId": 4
+    }
+  ]
+}
